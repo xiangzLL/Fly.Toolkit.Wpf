@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fly.ToolKit.Wpf", "Fly.ToolKit.Wpf\Fly.ToolKit.Wpf.csproj", "{088F7065-26BF-4CC4-B457-EE5675C6FD5E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{AB99FBEA-256B-4119-904C-2830F2E5D319}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyTestClient", "..\FlyTestClient\FlyTestClient.csproj", "{2CF1A30E-D07D-428A-97C5-D44C9143B72D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{088F7065-26BF-4CC4-B457-EE5675C6FD5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{088F7065-26BF-4CC4-B457-EE5675C6FD5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{088F7065-26BF-4CC4-B457-EE5675C6FD5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF1A30E-D07D-428A-97C5-D44C9143B72D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF1A30E-D07D-428A-97C5-D44C9143B72D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF1A30E-D07D-428A-97C5-D44C9143B72D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF1A30E-D07D-428A-97C5-D44C9143B72D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2CF1A30E-D07D-428A-97C5-D44C9143B72D} = {AB99FBEA-256B-4119-904C-2830F2E5D319}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7BDAE7D2-29E8-481A-91C0-8B4EC8D74C75}
